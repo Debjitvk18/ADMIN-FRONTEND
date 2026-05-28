@@ -11,7 +11,7 @@ import Sun from "lucide-react/dist/esm/icons/sun.mjs";
 import Trash2 from "lucide-react/dist/esm/icons/trash-2.mjs";
 import X from "lucide-react/dist/esm/icons/x.mjs";
 
-const API_URL = import.meta.env.VITE_API_URL || "http://localhost:5000";
+const API_URL = import.meta.env.VITE_API_URL;
 const LIMIT = 10;
 
 function formFromItem(item) {
