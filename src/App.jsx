@@ -366,7 +366,7 @@ export default function App() {
           </div>
           <div className="google-line" aria-hidden="true" />
         </div>
-
+{/* 
         <label className="mb-6 grid gap-2 rounded-2xl border border-[var(--line)] bg-[var(--card)] p-4 shadow-sm">
           <span className="text-sm font-bold text-[var(--subtle)]">Admin key</span>
           <input
@@ -376,7 +376,7 @@ export default function App() {
             onChange={(event) => setAdminSecret(event.target.value)}
             placeholder="Enter the ADMIN_SECRET from your backend"
           />
-        </label>
+        </label> */}
 
         <div className="mb-6 grid gap-3 sm:grid-cols-3">
           <div className="metric-card">
